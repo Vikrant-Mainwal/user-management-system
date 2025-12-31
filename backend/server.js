@@ -38,7 +38,7 @@ const startServer = async () => {
     app.get("/", (req, res) => {
       res.status(200).json({
         status: "success",
-        message: "🚀 Backend API is running successfully!",
+        message: "Backend API is running successfully!",
       });
     });
 
